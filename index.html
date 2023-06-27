@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael Smith - Personal Portfolio</title>
+
+  <link rel="shortcut icon" href="./assets/images/icon-doomSlayer.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.svg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Michael smith">Michael Smith</h1>
+
+          <p class="title">Software developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:Michael.t.smith95@gmail.com" class="contact-link">Michael.t.smith95@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Indiana, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/michael-tyler-smith/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>Hey there!</p> 
+          <ul>
+            <li>
+              I'm a versatile computer enthusiast, a true jack-of-all-trades in the realm of coding and software engineering. If you're looking for someone with a knack for programming, then you've found the right person!
+            </li>
+            <br />
+            <li>
+              My skills extend across a broad spectrum, from crafting captivating mobile apps on platforms like Android, Ionic, and Xamarin, to conjuring up mesmerizing worlds through game development using Unreal Engine and Unity. But my talents don't stop there! I'm also well-versed in the mysterious art of hardware programming, taming PLCs and Smart Controllers like a digital wizard.
+            </li>
+            <br />
+            <li>
+              While I am by no means a "mathematical genius," I thrive in the realm of complex algorithms and problem-solving. It's like building a car and then driving it hoping you installed the brakes correctly!
+            </li>
+            <br />
+            <li>
+              In a nutshell, I'm a versatile mid-level developer, ready to add my unique flavor to the mesmerizing world of technology and software engineering. Let's embark on this thrilling coding adventure together!
+            </li>
+          </ul>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game Development</h4>
+
+                <p class="service-item-text">
+                  I am using Unity to learn more about liner interpolation for smooth object movement.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  I am learning better methods of implementing designs and user interactions on web pages.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  I am a professional mobile app developer full-time currently.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon_gradCap.svg" alt="camera icon" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">College</h4>
+
+                <p class="service-item-text">
+                  I am a college student until October 31, 2023. <span id="dynamicCountDown"></span>
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Current Interests</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo-Unity.png" alt="Unity Logo" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Unity</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I am currently pursuing knowledge in Unity development to enhance my skills as a game designer. As part of this journey, I understand the importance of mastering various processes involved in game development, including 3D modeling, sound design, and level design
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo-Linux.png" alt="CyberSecurity" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Cyber-Security</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I'm actively pursuing knowledge in Cybersecurity, with a focus on networking, security, and cryptography. 
+                    I've installed Kali Linux on my laptop's virtual machine platform and I'm utilizing the HackTheBox student academy to complete modules 
+                    and advance my skills. Exploring ethical hacking and penetration testing, I'm dedicated to enhancing my expertise and staying updated in this 
+                    ever-evolving field.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>modal Title</h4>
+
+              <time datetime="2023-06-27">2023</time>
+
+              <div data-modal-text>
+                <p>
+                  modal text
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">My Life in logos</h3>
+          <h5 class="text">2013 - 2023 (Scrollable)</h5>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a>
+                <img src="./assets/images/icon_gradCapWhite.svg" alt="client logo">
+              </a>
+              <div>
+                <p class="text">H.S. (2013)</p>
+              </div>
+            </li>
+
+            <li class="clients-item arrow">
+              <a>
+                <img src="./assets/images/icon-rightArrow.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a>
+                <img src="./assets/images/logo-armyWhite.png" alt="client logo">
+              </a>
+              <div>
+                <p class="text">2013 - 2015</p>
+              </div>
+            </li>
+
+            <li class="clients-item arrow">
+              <a>
+                <img src="./assets/images/icon-rightArrow.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a>
+                <img src="./assets/images/logo-navyWhite.png" alt="client logo">
+              </a>
+              <div>
+                <p class="text">2015 - 2021</p>
+              </div>
+            </li>
+
+            <li class="clients-item arrow">
+              <a>
+                <img src="./assets/images/icon-rightArrow.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a>
+                <img src="./assets/images/icon_gradCapWhite.svg" alt="client logo">
+              </a>
+              <div>
+                <p class="text">2020-2023</p>
+              </div>
+            </li>
+
+            <li class="clients-item arrow">
+              <a>
+                <img src="./assets/images/icon-rightArrow.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item firefly">
+              <a>
+                <img src="./assets/images/logo-firefly.svg" alt="client logo">
+              </a>
+              <div class="jobYear">
+                <p class="text">2021 - Present</p>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume <span class="small-text"><a href="">Download</a></span></h2> 
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelors from Purdue University</h4>
+
+              <span>2020 — 2023</span>
+
+              <p class="timeline-text">
+                Embarking on my academic journey at Purdue University was an exhilarating experience that ignited my passion for computer science and software development. 
+                Immerse in cutting-edge coursework and hands-on projects, I honed my skills in computer programming, problem-solving, and software development. 
+                From delving into algorithms to exploring emerging technologies, every moment at Purdue pushed me to expand my horizons and cultivate a deep understanding of the digital landscape. 
+                By combining my military training with the technical prowess gained at Purdue, I possess a well-rounded skill set that seamlessly blends expertise, adaptability, and an unwavering commitment to excellence.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Military Schoolings</h4>
+
+              <span>2013 — 2021</span>
+
+              <p class="timeline-text">
+                Through my military service, I gained invaluable specialized training that transformed me into a highly skilled and adaptable individual. 
+                The military provided me with technical expertise, leadership abilities, and the capacity to thrive in dynamic environments. I learned the importance of teamwork, problem-solving, and making sound decisions under pressure. 
+                The military instilled in me a strong sense of discipline, resilience, and ethical values. With industry-standard knowledge and certifications, I bring a unique skill set and unwavering commitment to excellence, making me a valuable asset in any civilian career. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school</h4>
+
+              <span>2013</span>
+
+              <p class="timeline-text">
+                Completed Highschool in an accelerated program. Joined the military to further my education.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mobile App Developer</h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                <ul class="text">
+                  <li>
+                     1. Spearheaded the development of a cutting-edge Android/iOS app using Ionic/Capacitor framework, revolutionizing the management of RV equipment.
+                  </li>
+                  <br />
+                  <li>
+                    2. Led the successful integration of two complex inverter systems, enhancing the functionality and user experience of the application.
+                  </li>
+                  <br />
+                  <li>
+                    3. Orchestrated the seamless integration of various electrical component add-ons, expanding the application's capabilities and meeting unique client requirements.
+                  </li>
+                </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Java Developer</h4>
+
+              <span>2020-2021</span>
+
+              <p class="timeline-text">
+                <ul class="text">
+                  <li>
+                    1. Developed robust web applications utilizing Spring Suite Tools and cutting-edge technologies.
+                  </li>
+                  <br />
+                  <li>
+                    2. Leveraged Spring Data module to seamlessly integrate databases, enabling efficient data storage and manipulation.
+                  </li>
+                  <br />
+                  <li>
+                    3. Implemented Spring Security to enhance web application security and authentication.
+                  </li>
+                  <br />
+                  <li>
+                    4. Successfully created high-quality applications meeting modern user demands.
+                  </li>
+                </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Soldier/Sailor</h4>
+
+              <span>2013 — 2021</span>
+
+              <p class="timeline-text">
+                <ul class="text">
+                  <li>
+                    1. Served as a dedicated soldier and sailor, demonstrating exceptional discipline, teamwork, and adaptability in high-pressure and dynamic environments.
+                  </li>
+                  <br />
+                  <li>
+                    2. Developed strong leadership skills through training, mentoring, and supervising teams in various military operations.
+                  </li>
+                  <br />
+                  <li>
+                    3. Demonstrated commitment to achieving objectives under challenging conditions, fostering resilience, and maintaining focus on critical tasks.
+                  </li>
+                  <br />
+                  <li>
+                    4. Applied critical thinking and problem-solving abilities to overcome complex challenges efficiently and effectively.
+                  </li>
+                </ul>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">User Experience Design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Development Processes</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Third Party Vendor Usage (Wordpress, Wix, etc.)</h5>
+                <data value="50">60%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BitterFitness</h3>
+
+                <p class="project-category">Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mira/Eclipse App</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/background-Unity.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Game Dev</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Unity</h3>
+
+                  <p class="blog-text">
+                    My Road-Map on Unity
+                  </p>
+                </div>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d434338.35800341057!2d-85.84290811886117!3d41.496994355922304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1687883532958!5m2!1sen!2sus"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+            <p>(Re-work in progress...email for now please.)</p>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
