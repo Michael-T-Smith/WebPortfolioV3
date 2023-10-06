@@ -1,10 +1,8 @@
 'use strict';
 
 
-
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
-
 
 
 // sidebar variables
@@ -13,7 +11,6 @@ const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 
 // sidebar toggle functionality for mobile
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
-
 
 
 // testimonials variables
@@ -33,7 +30,7 @@ const testimonialsModalFunc = function () {
   overlay.classList.toggle("active");
 }
 
-// add click event to all modal items
+// add click event to all model items
 for (let i = 0; i < testimonialsItem.length; i++) {
 
   testimonialsItem[i].addEventListener("click", function () {
@@ -63,13 +60,18 @@ const filterBtn = document.querySelectorAll("[data-filter-btn]");
 let countDown = document.getElementById("dynamicCountDown");
 
 
-
+// Dynamic College graduation countdown.
 document.addEventListener("DOMContentLoaded", function(){
   let today = new Date();
   let gradDate = new Date("October 31, 2023");
   let timeDiff = gradDate.getTime() - today.getTime();
   let daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
-  countDown.textContent = daysDiff + " days left.."
+  if(daysDiff < 0){
+    let collegeDescription = document.getElementById("collegeDescription");
+    collegeDescription.textContent = "I was a college student until October 31, 2023";
+  } else {
+    countDown.textContent = daysDiff + " days left.."
+  }
 })
 
 select.addEventListener("click", function () { elementToggleFunc(this); });
